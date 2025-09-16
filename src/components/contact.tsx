@@ -20,7 +20,7 @@ export default function ContactSection() {
               <h3 className="text-2xl font-bold text-foreground">Get In Touch</h3>
               <p className="text-muted-foreground leading-relaxed">
                 At Accure Electrical Services, we stand out for our commitment to quality, reliability, and customer
-                satisfaction. Whether it's a complex installation or routine maintenance, we go the extra mile to
+                satisfaction. Whether it is a complex installation or routine maintenance, we go the extra mile to
                 deliver results that exceed expectations.
               </p>
             </div>

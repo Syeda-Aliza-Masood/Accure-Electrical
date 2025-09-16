@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Phone, CheckCircle, Zap, Shield, Clock } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"   // ✅ yeh line add ki
 
 export default function HeroSection() {
   return (
@@ -73,9 +74,12 @@ export default function HeroSection() {
 
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-100 shadow-2xl">
-              <img
+              {/* ✅ img ko Image se replace kiya */}
+              <Image
                 src="/professional-electrician-working-on-electrical-pan.jpg"
                 alt="Professional electrician working on electrical systems"
+                width={600}   // width aur height dena zaroori hai
+                height={600}
                 className="w-full h-full object-cover"
               />
             </div>
